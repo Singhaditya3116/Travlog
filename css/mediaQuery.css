@@ -94,4 +94,8 @@
   #banner3 {
     height: 220px;
   }
+
+  .intersect-image {
+    transform: scale(0.6);
+  }
 }
