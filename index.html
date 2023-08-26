@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/typography.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/mediaQuery.css" />
+  <title>Travlog</title>
+</head>
+
+<body>
+  <header >
+    <!-- Logo -->
+    <div class="logo-container flex-align-center">
+      <img id="logo" alt="Travlog Logo" src="./assets/icons/logo.png" />
+      <h3>Travlog</h3>
+    </div>
+    <div class="navbar">
+      <div class="menu-items">
+        <h6 id="home" class="items">Home</h6>
+        <h6 class="items">Discover</h6>
+        <h6 class="items">Special Deals</h6>
+        <h6 class="items">Contact</h6>
+      </div>
+      <div class="menu-btns">
+        <button class="btns" id="login-btn">
+          <h6> Log In </h6>
+        </button>
+        <button class="btns primary" id="signup-btn">
+          <h6>
+            Sign Up
+          </h6>
+        </button>
+      </div>
+    </div>
+    <img id="hamburger" alt="hamburger" src="./assets/icons/hamburger.png">
+  </header>
+
+  <main>
+    <!-- Explore the World Section -->
+    <section class="hero-banner">
+      <div class="left-section">
+        <button class="btns flex-align-center">
+          <h6>Explore the world</h6>
+          <img id="explore-img" alt="work" src="./assets/icons/work.svg" />
+        </button>
+        <div class="title">
+          <h1>Travel <span class="pink-text">Top</span></h1>
+          <h1 class="pink-text">destination</h1>
+          <h1>of the world</h1>
+        </div>
+        <h5 class="subtitle">
+          We always make our customer happy by providing as many choices as
+          possible
+        </h5>
+        <div class="button-container">
+          <button class="btns primary">
+            <h6>
+              Get Started
+            </h6>
+          </button>
+          <button class="btns flex-align-center">
+            <img class="margin-8" alt="play button" src="./assets/icons/play.svg" />
+            <h6>Watch Demo</h6>
+          </button>
+        </div>
+      </div>
+      <!-- Right Section -->
+      <div class="right-section">
+        <img id="world" alt="world" src="./assets/images/world.svg" />
+        <div class="showcase">
+          <div class="left-showcase">
+            <div class="left-showcase-img-wrapper">
+              <img class="banner-img" src="./assets/images/banner1.png" alt="banner1" />
+              <img class="send-icon" src="./assets/icons/send.svg" alt="">
+            </div>
+            <img class="banner-img" src="./assets/images/banner2.png" alt="banner2" />
+          </div>
+          <div class="right-showcase">
+            <img class="banner-img" id="banner3" src="./assets/images/banner3.png" alt="banner3" />
+            <button class="btns flex-align-center" id="location-btn">
+              <img class="margin-8" alt="location" src="./assets/icons/location.svg" />
+              <h6>Top Places</span>
+            </button>
+            <img id="add-btn" alt="add" src="./assets/icons/add.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destination Section -->
+    <section class="destination-section">
+      <img class="destination-bg-1" src="./assets/images/verticalArrowBg.svg" alt="arrow-background">
+      <img class="destination-bg-2" src="./assets/images/triangularArrowBg.svg" alt="arrow-background">
+      <div class="destination-header">
+        <div>
+          <h4 class="pink-text section-top-text">Top Destination</h4>
+          <h2>Explore top destination</h2>
+        </div>
+        <div>
+          <button class="arrow-btn left-arrow-btn">
+            <img alt="left arrow" src="./assets/icons/left-arrow.svg" />
+          </button>
+          <button class="arrow-btn right-arrow-btn">
+            <img alt="right arrow" src="./assets/icons/right-arrow.svg" />
+          </button>
+        </div>
+      </div>
+      <div class="destination-cards">
+        <div class="cards">
+          <div>
+            <img class="card-img" alt="Paradise Beach" src="./assets/images/paradise.png" />
+          </div>
+          <div class="destination-details">
+            <div class="destination-name">
+              <h4>Paradise Beach, Bantayan Island</h4>
+              <span class="pink-text price">$550.16</span>
+            </div>
+            <p class="country">Rome, Italy</p>
+            <span class="rating">
+              <h4>4.8</h4>
+              <img class="star" alt="star" src="./assets/icons/star.svg" />
+            </span>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div>
+            <img class="card-img" alt="Ocean" src="./assets/images/ocean.png" />
+          </div>
+          <div class="destination-details">
+            <div class="destination-name">
+              <h4>Ocean with full of Colors</h4>
+              <h4 class="pink-text price">$20.99</h4>
+            </div>
+            <p class="country">Maldives</p>
+            <span class="rating">
+              <h4>4.5</h4>
+              <img class="star" alt="star" src="./assets/icons/star.svg" />
+            </span>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div>
+            <img class="card-img" alt="Mountain" src="./assets/images/mountain.png" />
+          </div>
+          <div class="destination-details">
+            <div class="destination-name">
+              <h4>Mountain View Above the Cloud</h4>
+              <span class="pink-text price">$150.99</span>
+            </div>
+            <p class="country">United Arab Emeries</p>
+            <span class="rating">
+              <h4>5.0</h4>
+              <img class="star" alt="star" src="./assets/icons/star.svg" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="key-section">
+      <div class="key-feature">
+        <div class="key-left-section">
+          <h4 class="key-overview pink-text section-top-text">Key Features</h4>
+          <h2 class="key-title">We Offer best Services </h2>
+          <p class="key-subtitle">Contrary to popular belief, Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+            when an unknown printer took a galley of type.</p>
+          <div class="inner-cards-container">
+            <div class="inner-cards">
+              <div class="logo-wrapper orange">
+                <img src="./assets/icons/location-white.svg" alt="location">
+              </div>
+              <div class="card-text">
+                <h4>We Offer best services</h4>
+                <p>Lorem Ipsum is not simply random text</p>
+              </div>
+            </div>
+            <div class="inner-cards">
+              <div class="logo-wrapper yellow">
+                <img src="./assets/icons/calendar.svg" alt="calendar">
+              </div>
+              <div class="card-text">
+                <h4>Schedule your trip</h4>
+                <p>It has roots in a piece if classical</p>
+              </div>
+            </div>
+            <div class="inner-cards">
+              <div class="logo-wrapper pink">
+                <img src="./assets/icons/ticket.svg" alt="ticket">
+              </div>
+              <div class="card-text">
+                <h4>Get discounted coupons</h4>
+                <p>Lorem Ipsum is not simply random text</p>
+              </div>
+            </div>
+            <div class="key-right-section"></div>
+          </div>
+        </div>
+        <div class="key-right-section">
+          <div class="image-container">
+            <img id="circular-image" width="320px" height="272px" src="./assets/images/circularArrowBg.svg" alt="">
+            <div class="intersect-image">
+              <img class="intersect-Image1" width="446px" height="665px" src="./assets/images/intersectImage1.png"
+                alt="">
+              <img class="intersect-Image2" width="351px" height="496px" src="./assets/images/intersectImage2.png"
+                alt="">
+            </div>
+
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
